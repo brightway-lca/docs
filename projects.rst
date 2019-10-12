@@ -1,5 +1,5 @@
-Changing projects
-#################
+Projects
+########
 
 What actually happens when you switch projects?
 ===============================================
@@ -12,3 +12,19 @@ The base directory for brightway data varies depending on the operating system -
 * The backends that should be activated when switching to the new project.
 * The full path to the directory that has project data. This is normally, but not always, a subdirectory of the base directory.
 * Whether or not this project is the default project
+
+Backends
+########
+
+Interfaces
+==========
+
+The input to bw_calc is a ``calculation package``: A structured set of metadata that describes a) the functional unit of the calculation, b) how to build the necessary matrices, and c) An additional extra metadata needed for exact reproduction of the given calculation. A ``calculation package`` can be a Python dictionary or an absolute filepath to JSON file. Here is a an example:
+
+Most users will not generate ``calculation packages`` themselves, but will rather use helper functions in the respective backend. For example, in the default backend the function is ``prepare_calculation_package``:
+
+.. autofunction:: bw_default_backend.calculation_package.prepare_calculation_package
+
+Functional unit
+---------------
+

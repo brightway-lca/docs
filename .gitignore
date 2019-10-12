@@ -1,0 +1,14 @@
+syntax:glob
+dist
+build
+_build
+*.pyc
+*~
+MANIFEST
+*.sublime*
+*.egg-info
+notebooks/.ipynb_checkpoints
+*.pickle
+.cache
+.coverage
+~*.*
