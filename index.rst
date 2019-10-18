@@ -6,6 +6,28 @@
 Welcome to Brightway docs's documentation!
 ==========================================
 
+
+Docs outline:
+
+(intro paragraph)
+
+Who is Brightway (version 3) for?
+
+I found a bug! What next?
+
+Quickstart
+Introduction to Brightway
+Introduction to version 3
+Installation
+Brightway packages
+How do I?
+Contributing
+Credits & License
+
+More info: (links to package documentation, Stack Overflow)
+
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
