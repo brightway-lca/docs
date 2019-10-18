@@ -1,5 +1,7 @@
-Upgrading from version 2
-########################
+.. _intro-version-3:
+
+Differences with version 2
+``````````````````````````
 
 Major changes in version 3
 ==========================

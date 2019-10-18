@@ -1,3 +1,3 @@
-Introduction to Brightway (version 3)
-#####################################
+Introduction
+````````````
 

@@ -23,8 +23,6 @@ The input to bw_calc is a ``calculation package``: A structured set of metadata 
 
 Most users will not generate ``calculation packages`` themselves, but will rather use helper functions in the respective backend. For example, in the default backend the function is ``prepare_calculation_package``:
 
-.. autofunction:: bw_default_backend.calculation_package.prepare_calculation_package
-
 Functional unit
 ---------------
 
