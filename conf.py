@@ -23,6 +23,8 @@ project = 'Brightway docs'
 copyright = '2019, Chris Mutel'
 author = 'Chris Mutel'
 
+master_doc = 'index'
+
 # The full version, including alpha/beta/rc tags
 release = '0.1.dev'
 
