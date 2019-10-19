@@ -8,8 +8,12 @@ Brightway is a set of components for Life Cycle Assessment (LCA), designed to pl
 
 This documentation is for Brightway version 3, a near-complete rewrite of Brightway2, designed to make it easier and simpler to use, and ready for cloud computing. There is a whole section of the docs on the :ref:`differences with version 2 <intro-version-3>`.
 
+Please subscribe to the `brightway2 updates mailing list <https://tinyletter.com/brightway2-updates>`_ to be informed of new releases.
+
 Who is Brightway for?
 ---------------------
+
+.. warning:: Brightway is currently released as a technology preview for public comment - for now, please use `Brightway2 <https://brightwaylca.org/>`__ for normal work.
 
 Brightway doesn’t try to replace software like SimaPro or OpenLCA, but rather to offer new possibilities to those who want to break the limits of conventional LCA. So it's not for everyone, and you will need to invest some time learning about Python. However, it also opens up numerous possibilities; here are some recent published examples:
 

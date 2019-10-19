@@ -6,14 +6,15 @@ Differences with version 2
 Major changes in version 3
 ==========================
 
-* The behaviour of the default backend has changed, to make the code less complex, allow direct SQL queries, and form a more stable foundation for future development. See working with the new default backend`.
-* The calculation library is now completely independent of the data backends. This makes cloud computing much easier, and allows each library to focus on one task. See `running an LCA calculation`.
-* All Python versions before 3.6 are deprecated. This makes the code simpler to write and maintain.
+* The major components (IO, data, calculations) are completely separated from each other, allowing for much easier cloud computing, and making each library easier to understand and contribute to. Data exchange takes place using standardized interfaces (todo: add link here).
+* The behaviour of the default backend has changed significantly, making the code less complex, allowing for direct SQL queries, providing flows separate from activities, and forming a more stable foundation for future development.
+* Python versions before 3.6 are not supported. This makes the code simpler to write and maintain.
+* All development takes place on Github and using git. Bitbucket has `deprecated their mercurial API <https://bitbucket.org/blog/sunsetting-mercurial-support-in-bitbucket>`__.
 
 Getting started
 ===============
 
-The semantics for starting a new project have changed, be sure to read the `intro` section. See also `Migrating from Brightway version 2`.
+The semantics for starting a new project have changed, be sure to read the `intro` section.
 
 Working with the new default backend
 ====================================
