@@ -13,3 +13,4 @@ notebooks/.ipynb_checkpoints
 .coverage
 ~*.*
 dev
+sync-docs.sh
